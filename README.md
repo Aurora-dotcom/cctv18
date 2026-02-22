@@ -1,16 +1,43 @@
-## Hi there 👋
-
+## 你好! 
 <!--
-**cctv18/cctv18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<img align="right" src="https://github-readme-stats-one-bice.vercel.app/api?username=cctv18&show_icons=true&&bg_color=17150d&title_color=a8c7fa&text_color=e5e5e5&icon_color=FFA07A&border_color=555555&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" />
 -->
+
+这里是cctv18，一名业余安卓开发/内核技术爱好者。 ~~(不是什么频道)~~
+
+- 🔭 目前主攻方向：安卓/Linux内核源码开发，安卓自定义技术，内核编译自动化工具/流程优化
+- 🌱 擅长的语言：C / C++ / Shell / Python
+- ⚡ 参与开发维护的项目：[SukiSU Ultra](https://github.com/SukiSU-Ultra/SukiSU-Ultra), [ReSukiSU](https://github.com/ReSukiSU/ReSukiSU), [Baseband Guard](https://github.com/vc-teahouse/Baseband-guard)等
+- 📫 我的酷安ID：@cctv18_2
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats-one-bice.vercel.app/api?username=cctv18&show_icons=true&&bg_color=17150d&title_color=a8c7fa&text_color=e5e5e5&icon_color=FFA07A&border_color=555555&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-readme-stats-yuzakikokuban.vercel.app/api/top-langs/?username=cctv18&layout=compact&bg_color=0d1117&title_color=a8c7fa&text_color=e3e3e3&hide_border=true&exclude_forks=true" alt="languages graph" />
+    </td>
+  </tr>
+</table>
+
+##
+### 我的个人作品：（更多代码开发中）
+
+<div align="center">
+
+  <img src="https://github-readme-stats-yuzakikokuban.vercel.app/api/pin/?username=cctv18&repo=oppo_oplus_realme_sm8650&bg_color=17150d&title_color=a8c7fa&text_color=e5e5e5&icon_color=a8c0fa&border_color=555555&show_owner=true" alt="oppo_oplus_realme_sm8650 stats" />
+
+  <img src="https://github-readme-stats-yuzakikokuban.vercel.app/api/pin/?username=cctv18&repo=oppo_oplus_realme_sm8750&bg_color=17150d&title_color=a8c7fa&text_color=e5e5e5&icon_color=a8c0fa&border_color=555555&show_owner=true" alt="oppo_oplus_realme_sm8750 stats" />
+</div>
+
+<div align="center">
+  
+  <img src="https://github-readme-stats-yuzakikokuban.vercel.app/api/pin/?username=cctv18&repo=oppo_oplus_realme_sm8850&bg_color=17150d&title_color=a8c7fa&text_color=e5e5e5&icon_color=a8c0fa&border_color=555555&show_owner=true" alt="oppo_oplus_realme_sm8850 stats" />
+
+</div>
+
+##
+### 赞赏
+- 💖 目前我的项目纯属用爱发电，如果你喜欢我的项目，欢迎对我赞助，感激不尽ww ~~（孩子真的日常吃土qwq）~~
+
