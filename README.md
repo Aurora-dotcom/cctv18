@@ -41,3 +41,8 @@
 ### 赞赏
 - 💖 目前我的项目纯属用爱发电，如果你喜欢我的项目，欢迎对我赞助，感激不尽ww ~~（孩子真的日常吃土qwq）~~
 
+<div align="center">
+  <img height="500" src="https://raw.githubusercontent.com/cctv18/cctv18/refs/heads/main/support_wx.jpg" />
+  
+  <img height="500" src="https://raw.githubusercontent.com/cctv18/cctv18/refs/heads/main/support_zfb.jpg" />
+</div>
