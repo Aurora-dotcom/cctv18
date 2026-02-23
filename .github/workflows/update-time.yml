@@ -1,0 +1,38 @@
+name: Auto Update Readme Timestamp
+
+on:
+  schedule:
+    - cron: '0 */8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update timestamp in README
+        run: |
+          current_time=$(date +%s)
+          
+          sed -i "s/time=[0-9]\{10\}/time=$current_time/g" README.md
+          
+          echo "Updated timestamps to $current_time"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          if [[ -n $(git status -s) ]]; then
+            git add README.md
+            git commit -m "docs: auto update readme timestamp [skip ci]"
+            git push
+            echo "Successfully pushed updates."
+          else
+            echo "No changes to commit."
+          fi
