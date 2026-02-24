@@ -16,6 +16,13 @@
   <img height="165" src="https://github-readme-stats-yuzakikokuban.vercel.app/api/top-langs/?username=cctv18&layout=compact&bg_color=0d1117&title_color=a8c7fa&text_color=e3e3e3&time=1771952059&hide_border=true&exclude_forks=true" alt="languages graph" />
 </div>
 
+<div align="center">
+<picture>
+  <source srcset="https://raw.githubusercontent.com/cctv18/cctv18/snake/github-contribution-grid-snake-dark.svg" media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/cctv18/cctv18/snake/github-contribution-grid-snake-white.svg" alt="Contribution Snake" />
+</picture>
+</div>
+
 ##
 ### 我的个人作品：（更多代码开发中）
 
