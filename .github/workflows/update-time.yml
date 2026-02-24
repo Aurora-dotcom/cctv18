@@ -30,9 +30,27 @@ jobs:
           
           if [[ -n $(git status -s) ]]; then
             git add README.md
-            git commit -m "docs: auto update readme timestamp [skip ci]"
-            git push
-            echo "Successfully pushed updates."
+            LAST_AUTHOR=$(git log -1 --pretty=format:'%an')
+            LAST_MSG=$(git log -1 --pretty=format:'%s')
+            TARGET_MSG="docs: auto update readme timestamp [skip ci]"
+          
+            echo "Last commit author: $LAST_AUTHOR"
+            echo "Last commit message: $LAST_MSG"
+
+            if [[ "$LAST_AUTHOR" == "github-actions[bot]" && "$LAST_MSG" == *"$TARGET_MSG"* ]]; then
+              echo "Found previous bot commit. Amending..."
+              git commit --amend --no-edit
+              git push --force
+              echo "Successfully amended the last commit."
+            else
+              echo "Last commit was by human or different. Creating new commit..."
+              git commit -m "$TARGET_MSG"
+              git push
+              echo "Successfully pushed new commit."
+              git commit -m "docs: auto update readme timestamp [skip ci]"
+              git push
+              echo "Successfully pushed updates."
+            fi
           else
             echo "No changes to commit."
           fi
